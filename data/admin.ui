@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>436</width>
+    <height>882</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(65, 0, 98, 255), stop:1 rgba(0, 0, 103, 255));
+border-radius: 10px;
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="students">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>130</y>
+      <width>261</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 255, 127, 255), stop:0.716418 rgba(170, 170, 255, 255), stop:1 rgba(139, 123, 200, 255));</string>
+    </property>
+    <property name="text">
+     <string>Редактировать таблицу учеников</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="books">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>240</y>
+      <width>261</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 255, 127, 255), stop:0.716418 rgba(170, 170, 255, 255), stop:1 rgba(139, 123, 200, 255));</string>
+    </property>
+    <property name="text">
+     <string>Редактировать таблицу учебников </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="lessons">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>350</y>
+      <width>261</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 255, 127, 255), stop:0.716418 rgba(170, 170, 255, 255), stop:1 rgba(139, 123, 200, 255));</string>
+    </property>
+    <property name="text">
+     <string>Редактировать расписание</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="search_student">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>450</y>
+      <width>261</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 255, 127, 255), stop:0.716418 rgba(170, 170, 255, 255), stop:1 rgba(139, 123, 200, 255));</string>
+    </property>
+    <property name="text">
+     <string>Искать ученика</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="view_lessons">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>550</y>
+      <width>261</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 255, 127, 255), stop:0.716418 rgba(170, 170, 255, 255), stop:1 rgba(139, 123, 200, 255));</string>
+    </property>
+    <property name="text">
+     <string>Посмотреть расписание</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="search_book">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>650</y>
+      <width>261</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 255, 127, 255), stop:0.716418 rgba(170, 170, 255, 255), stop:1 rgba(139, 123, 200, 255));</string>
+    </property>
+    <property name="text">
+     <string>Искать учебник</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="add_book">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>747</y>
+      <width>261</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(0, 255, 127, 255), stop:0.716418 rgba(170, 170, 255, 255), stop:1 rgba(139, 123, 200, 255));</string>
+    </property>
+    <property name="text">
+     <string>Добавить учебник</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="profile">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>20</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Профиль&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(170, 85, 255, 255), stop:0.353234 rgba(109, 97, 200, 255), stop:1 rgba(85, 170, 255, 255));</string>
+    </property>
+    <property name="text">
+     <string>Профиль</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>436</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
